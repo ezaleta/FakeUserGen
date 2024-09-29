@@ -132,7 +132,7 @@ function App() {
     }, [baseData, debouncedErrorsPerRecord, seed]);
 
     return (
-        <main className="dark text-foreground max-w-7xl mx-auto px-4 py-6">
+        <main className="dark text-foreground max-w-screen-2xl h-screen mx-auto px-6 py-6 flex flex-col justify-center items-center shadow-[0px_2px_23px_0px_#a0aec0]">
             <h1 className="text-4xl font-bold text-center mb-10">Fake User Data Generator</h1>
             <div className="flex flex-row justify-between gap-6 mb-10">
                 <RegionSelector region={region} setRegion={setRegion} />

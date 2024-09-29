@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-    @apply bg-gradient-to-t from-zinc-600 to-zinc-800 text-foreground h-screen flex justify-center items-center;
+    @apply bg-gradient-to-t from-zinc-600 to-zinc-800 text-foreground h-screen;
     font-family: "Inter", system-ui, sans-serif;
 }
