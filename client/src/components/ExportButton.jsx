@@ -4,7 +4,7 @@ import { Button } from "@nextui-org/react";
 const ExportButton = ({ data }) => {
     const exportToCSV = async () => {
         try {
-            const response = await fetch("/api/export", {
+            const response = await fetch("${API_BASE_URL}/api/export", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

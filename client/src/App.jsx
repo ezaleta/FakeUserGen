@@ -22,7 +22,7 @@ function App() {
             if (loadingRef.current) return;
             loadingRef.current = true;
             try {
-                const response = await fetch(`/api/generate?region=${encodeURIComponent(region)}&seed=${seed}&page=${pageToFetch}`);
+                const response = await fetch(`${API_BASE_URL}/api/generate?region=${encodeURIComponent(region)}&seed=${seed}&page=${pageToFetch}`);
                 if (!response.ok) {
                     throw new Error("Network response was not ok");
                 }
