@@ -6,6 +6,7 @@ import SeedInput from "./components/SeedInput";
 import DataTable from "./components/DataTable";
 import ExportButton from "./components/ExportButton";
 import seedrandom from "seedrandom";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 function App() {
     const [region, setRegion] = useState("USA");

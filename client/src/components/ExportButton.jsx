@@ -1,10 +1,11 @@
 import React from "react";
 import { Button } from "@nextui-org/react";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const ExportButton = ({ data }) => {
     const exportToCSV = async () => {
         try {
-            const response = await fetch("${API_BASE_URL}/api/export", {
+            const response = await fetch(`${API_BASE_URL}/api/export`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
