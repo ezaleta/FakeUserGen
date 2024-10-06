@@ -2,7 +2,13 @@
 
 ## Project Description
 
-Command-line implementation of the classic game Rock-Paper-Scissors
+Fullstack project for fake user data generation.
+
+Technologies used:
+
+* Frontend: React, Vite, NextUI, Tailwind CSS.
+
+* Backend: Node.js, Express.js
 
 ### Features
 
